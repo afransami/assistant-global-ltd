@@ -9,7 +9,7 @@ import Navbar from "../../Shared/Navbar/Navbar";
 const Main = () => {
   return (
     <div>
-      <div className="mx-auto container">
+      <div className="">
         <Navbar></Navbar>
       </div>
       <div className="min-h-[calc(100vh-392px)]">
