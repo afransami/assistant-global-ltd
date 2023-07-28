@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="grid lg:grid-cols-2 gap-4 mx-2">
+    <div className="grid lg:grid-cols-2 gap-4 lg:mx-4">
       <a href="#" className="block">
         <img
           alt="Art"
