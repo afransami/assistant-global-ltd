@@ -115,7 +115,7 @@ const CTA = () => {
     <Link className='text-[#3BAAFF] text-[20px]'>Explore</Link>
   </div> */}
 
-            <div className="bg-[url(https://i.ibb.co/n0ScXXZ/Screenshot-11.png)] bg-contain bg-center bg-no-repeat h-64 w-full object-cover sm:h-80 lg:h-[700px]  rounded-b-md">
+            <div className="bg-[url(https://i.ibb.co/n0ScXXZ/Screenshot-11.png)] bg-contain bg-center bg-no-repeat h-64 w-full object-contain sm:h-80 lg:h-[700px]  rounded-b-md">
               <div className="mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen flex items-center justify-center lg:items-center lg:px-8 "></div>
             </div>
           </div>
