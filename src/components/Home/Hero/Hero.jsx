@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
       <div className=" text-center py-20 flex items-center justify-center">
-        <h1 className="AssistantGlobal font-normal sm:text-lg lg:text-4xl uppercase text-[#313232]">
+        <h1 className=" font-normal sm:text-lg lg:text-4xl uppercase text-[#313232]">
           ASSISTANT GLOBAL
           <strong className="block font-extralight text-lg text-[#313132]" style={{ letterSpacing: `10px` }}>
             FOR THE PEOPLE

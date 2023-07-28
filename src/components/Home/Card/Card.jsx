@@ -1,9 +1,18 @@
 import React from "react";
 
 const Card = () => {
+
+  const [isFlipped, setIsFlipped] = React.useState(false);
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+
+
   return (
     <div className="grid lg:grid-cols-2 gap-4 lg:mx-4">
-      <a href="#" className="block">
+      <a href="#" className={`flip-card ${isFlipped ? 'flipped' : ''} block `} onClick={handleClick}>
+
         <img
           alt="Art"
           src="https://i.ibb.co/DGCh9Js/Screenshot-2.png"

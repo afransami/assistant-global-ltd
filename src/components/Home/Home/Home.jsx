@@ -12,7 +12,7 @@ const Home = () => {
             <Hero></Hero>
             </div>
             <Card></Card>
-            <div className='bg-[#f5f5f5] mt-16'>
+            <div className='bg-[#f1f1f1] mt-16'>
             <CTA></CTA>
             </div>
         </div>
