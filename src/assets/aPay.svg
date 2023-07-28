@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .09em;
+      }
+
+      .cls-2 {
+        letter-spacing: .13em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: .08em;
+      }
+
+      .cls-5 {
+        font-family: SFProDisplay-Bold, 'SF Pro Display';
+        font-size: 40.85px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #303030;
+      }
+
+      .cls-7 {
+        letter-spacing: .14em;
+      }
+
+      .cls-8 {
+        letter-spacing: .14em;
+      }
+
+      .cls-9 {
+        letter-spacing: .14em;
+      }
+
+      .cls-6 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-size: 198.38px;
+      }
+    </style>
+  </defs>
+  <text class="cls-6" transform="translate(36.12 289.95)"><tspan x="0" y="0">a</tspan><tspan class="cls-3" x="106.75" y="0">P</tspan><tspan x="223.67" y="0">ay</tspan></text>
+  <text class="cls-5" transform="translate(55.15 335.55)"><tspan class="cls-9" x="0" y="0">I</tspan><tspan class="cls-8" x="16.73" y="0">t</tspan><tspan class="cls-4" x="36.88" y="0">’</tspan><tspan class="cls-9" x="51.96" y="0">s Secu</tspan><tspan class="cls-2" x="210.89" y="0">r</tspan><tspan class="cls-7" x="230.98" y="0">ed</tspan><tspan class="cls-1" x="289.84" y="0">.</tspan></text>
+</svg>

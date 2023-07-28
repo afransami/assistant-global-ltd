@@ -4,7 +4,7 @@ import { GiHandBandage } from "react-icons/gi";
 
 const Announcements = () => {
   return (
-    <div className="lg:bg-[#D6D6D9] px-4 py-3 lg:flex justify-center items-center lg:h-16 text-center gap-2">
+    <div className="lg:bg-[#D6D6D9] px-4 lg:mt-12 mt-10 py-3 lg:flex justify-center items-center lg:h-16 text-center gap-2">
       <div className="flex  justify-center items-start ">
         <GiHandBandage className="text-[#D31772] text-3xl h-[50px]"></GiHandBandage>
         <div className="flex flex-col justify-center items-start">
@@ -15,7 +15,7 @@ const Announcements = () => {
         </div>
       </div>
       <div className="inline-flex">
-        <p className="text-center font-medium inline-block text-[#0368CD]">
+        <p className="text-center font-medium inline-block text-[#0368CD] max-w-xs lg:max-w-full" >
           Empowering Communities to give children a brighter future
         </p>{" "}
         <span className="text-[#0368CD] cursor-pointer lg:block hidden">
