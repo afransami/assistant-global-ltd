@@ -9,7 +9,9 @@ const Announcements = () => {
         <GiHandBandage className="text-[#D31772] text-3xl h-[50px]"></GiHandBandage>
         <div className="flex flex-col justify-center items-start">
           <p className="text-[#949494] text-xs relative top-2">ASSISTANT</p>
-          <p className="font-bold text-2xl lg:text-white text-[#D31772]">KIDS</p>
+          <p className="font-bold text-2xl lg:text-white text-[#D31772]">
+            KIDS
+          </p>
         </div>
       </div>
       <div className="inline-flex">

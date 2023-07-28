@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "title": "Menta",
+      "sub-title": "Sense of Fashion",
+      "explore": "Coming Soon",
+      "image": "https://i.ibb.co/DGCh9Js/Screenshot-2.png"
+    },
+    {
+      "id": 2,
+      "title": "CILO",
+      "sub-title": "Think, Feel, Drive",
+      "explore": "Coming Soon",
+      "image": "https://i.ibb.co/jLCcX7J/Screenshot-3.png"
+    },
+    {
+      "id": 3,
+      "title": "Kettop",
+      "sub-title": "INNOVATION STARTS HERE",
+      "explore": "Coming Soon",
+      "image": "https://i.ibb.co/gRQ5M72/Screenshot-4.png"
+    },
+    {
+      "id": 4,
+      "title": "AIT",
+      "sub-title": "Assistant Information Technology",
+      "explore": "On Going",
+      "image": "https://i.ibb.co/gJXLT15/Screenshot-5.png"
+    }
+  ]
+  

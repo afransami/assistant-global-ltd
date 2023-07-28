@@ -1,52 +1,50 @@
-import React from "react";
+import React, { useState } from "react";
+import "./Card.css"; // Import the CSS file for styling
 
-const Card = () => {
-
-  const [isFlipped, setIsFlipped] = React.useState(false);
+const Card = ({ card }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);
   };
 
-
   return (
-    <div className="grid lg:grid-cols-2 gap-4 lg:mx-4">
-      <a href="#" className={`flip-card ${isFlipped ? 'flipped' : ''} block `} onClick={handleClick}>
+    <div
+      className={`flip-card h-64 w-full object-cover sm:h-80 lg:h-[700px] rounded-b-md bg-white rounded-lg shadow-md cursor-pointer ${
+        isFlipped ? "flipped" : ""
+      }`}
+      onClick={handleClick}
+    >
+      <div className="flip-card-inner w-full h-full transition-transform duration-500 transform-gpu">
+        {/* Front side of the card (Image) */}
+        <div className="flip-card-front absolute w-full h-full rounded-lg overflow-hidden">
+          <img
+            src={card.image}
+            alt="Image"
+            className="h-64 w-full object-cover sm:h-80 lg:h-[700px] rounded-b-md"
+          />
+        </div>
 
-        <img
-          alt="Art"
-          src="https://i.ibb.co/DGCh9Js/Screenshot-2.png"
-          className="h-64 w-full object-cover sm:h-80 lg:h-[700px]  rounded-b-md"
-        />
-     
-      </a>
+        {/* Back side of the card (Description) */}
 
-      <a href="#" className="block">
-        <img
-          alt="Art"
-          src="https://i.ibb.co/jLCcX7J/Screenshot-3.png"
-          className="h-64 w-full object-cover sm:h-80 lg:h-[700px]  rounded-b-md"
-        />
-       
-      </a>
+        <div className="flip-card-back absolute w-full h-full bg-white rounded-lg transform-gpu rotate-y-180 flex flex-col justify-center items-center inset-0">
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              className="h-64 w-full object-cover sm:h-80 lg:h-[700px] rounded-b-md"
+              src={card.image}
+              alt=""
+            />
 
-      <a href="#" className="block">
-        <img
-          alt="Art"
-          src="https://i.ibb.co/gRQ5M72/Screenshot-4.png"
-          className="h-64 w-full object-cover sm:h-80 lg:h-[700px]  rounded-b-md"
-        />
-      
-      </a>
-
-      <a href="#" className="block">
-        <img
-          alt="Art"
-          src="https://i.ibb.co/gJXLT15/Screenshot-5.png"
-          className="h-64 w-full object-cover sm:h-80 lg:h-[700px]  rounded-b-md"
-        />
-
-      </a>
+            <div className="flex flex-col justify-center items-center">
+              <h3 className="text-xl font-bold mb-4 uppercase">{card.title}</h3>
+              <p className="uppercase">{card["sub-title"]}</p>
+              <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg uppercase">
+                {card.explore}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
