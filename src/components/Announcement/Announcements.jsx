@@ -1,26 +1,21 @@
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { GiHandBandage } from "react-icons/gi";
+import kidsLogo from "../../assets/A Kids Logo.svg";
 
 const Announcements = () => {
   return (
-    <div className="lg:bg-[#D6D6D9] px-4 lg:mt-12 mt-10 py-3 lg:flex justify-center items-center lg:h-16 text-center gap-2">
-      <div className="flex  justify-center items-start ">
-        <GiHandBandage className="text-[#D31772] text-3xl h-[50px]"></GiHandBandage>
-        <div className="flex flex-col justify-center items-start">
-          <p className="text-[#949494] text-xs relative top-2">ASSISTANT</p>
-          <p className="font-bold text-2xl lg:text-white text-[#D31772]">
-            KIDS
-          </p>
-        </div>
+    <div className="lg:bg-[#D6D6D9] px-4 lg:mt-12 mt-10 py-3 lg:h-16 text-center lg:flex sm:flex-row items-center justify-center ">
+      <div className="flex items-center justify-center">
+        <img className="w-28" src={kidsLogo} alt="" />
       </div>
-      <div className="inline-flex">
-        <p className="text-center font-medium inline-block text-[#0368CD] max-w-xs lg:max-w-full" >
+      <div className="flex  max-w-xs lg:max-w-full">
+        <p className="flex text-center items-center justify-center font-medium text-[#0368CD]">
           Empowering Communities to give children a brighter future
-        </p>{" "}
-        <span className="text-[#0368CD] cursor-pointer lg:block hidden">
-          <FiArrowUpRight></FiArrowUpRight>
-        </span>
+          <span className="text-[#0368CD] cursor-pointer lg:block hidden">
+            <FiArrowUpRight />
+          </span>
+        </p>
       </div>
     </div>
   );

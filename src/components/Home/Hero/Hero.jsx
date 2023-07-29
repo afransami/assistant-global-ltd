@@ -13,8 +13,8 @@ const Hero = () => {
       <div
         style={{
           position: 'absolute',
-          top: '50px',
-          left: '50%',
+          top: '50px',          
+          left: '50%',          
           transform: 'translate(-50%, -50%)',       
         }}
       >
@@ -22,7 +22,7 @@ const Hero = () => {
         <h1 className=" text-xl lg:text-4xl uppercase text-[#313232]">
           ASSISTANT GLOBAL
         </h1>
-          <h1 className="block font-extralight lg:text-2xl text-[#313132]" style={{ letterSpacing: `5px` }}>
+          <h1 className="lg:scale-125 sm:scale-110 block font-extralight lg:text-xl  text-[#313132]" style={{ letterSpacing: `5px` }}>
             FOR THE PEOPLE
           </h1>
       </div>
