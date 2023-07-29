@@ -3,7 +3,8 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/Untitled-2.png";
+// import Logo from "../../../assets/Untitled-2.png";
+import Logo from "../../../assets/Logo.svg"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +25,9 @@ const Navbar = () => {
               >
                 <li className=" hover:text-gray-400 cursor-pointer">
                   <img
-                    className="w-5"
+                    className="w-7"
                     src="https://i.ibb.co/Tm3X6wB/Untitled-2.png"
+                    // src={Logo}
                     alt=""
                   />
                 </li>
@@ -62,8 +64,9 @@ const Navbar = () => {
             </button>
 
             <Link to="/"><img
-              className="w-5 text-black cursor-pointer"
-              src={Logo}
+              className="w-6 text-black cursor-pointer"
+              // src={Logo}
+              src="https://i.ibb.co/3m1t5kt/Untitled-2-removebg-preview.png"
               alt=""
             /></Link>
 
