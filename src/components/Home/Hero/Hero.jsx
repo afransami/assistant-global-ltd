@@ -25,8 +25,8 @@ const Hero = () => {
               ASSISTANT GLOBAL
             </h1>
             <h1
-              className="lg:scale-125 sm:scale-110 block font-extralight lg:text-xl font-Montserrat text-[#313132]"
-              style={{ letterSpacing: `5px` }}
+              className="block font-extralight lg:text-xl font-Montserrat text-[#313132]"
+              style={{ letterSpacing: `7px` }}
             >
               FOR THE PEOPLE
             </h1>

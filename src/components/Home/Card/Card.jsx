@@ -1,18 +1,9 @@
 import React, { useState } from "react";
 import "./Card.css";
-import menta from "../../../assets/Menta.svg";
-import cilo from "../../../assets/Cilo.svg";
-import ait from "../../../assets/AIT.svg";
-import acap from "../../../assets/Acap.svg";
-import apay from "../../../assets/aPay.svg";
-import kettop from "../../../assets/Kettop.svg";
 import { FiArrowUpRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-// import Menta from "./Menta";
-// import Cilo from "./Cilo";
-// import Kettop from "./Kettop";
-// import Ait from "./Ait";
+
 
 const Card = ({ card }) => {
 

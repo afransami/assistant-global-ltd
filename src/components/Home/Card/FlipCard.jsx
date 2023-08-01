@@ -15,7 +15,7 @@ const MainComponent = () => {
   }, []);
 
   return (
-    <div className="grid lg:grid-cols-2 max-w-full h-auto bg-cover gap-4 ">
+    <div className="grid lg:grid-cols-2 max-w-full h-auto bg-cover gap-0 lg:gap-4 ">
       {cards.map((card) => (
         <Card key={card.id} card={card} />
         ))}        
