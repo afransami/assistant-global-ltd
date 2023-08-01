@@ -1,29 +1,33 @@
 [
-    {
-      "id": 1,
+       {
+      "id": 1,      
+      "logo": "../src/assets/Menta.svg",
       "title": "Menta",
-      "sub-title": "Sense of Fashion",
+      "subTitle": "Sense of Fashion",
       "explore": "On Going",
       "image": "https://i.ibb.co/nP8b4gc/Menta.png"
     },
     {
       "id": 2,
-      "title": "CILO",
-      "sub-title": "Think, Feel, Drive",
+      "logo": "../src/assets/Cilo.svg",
+      "title": "Cilo",
+      "subTitle": "Think, Feel, Drive",
       "explore": "On Going",
       "image": "https://i.ibb.co/DL7Vmnq/Cilo.jpg"
     },
     {
       "id": 3,
+      "logo": "../src/assets/Kettop.svg",
       "title": "Kettop",
-      "sub-title": "INNOVATION STARTS HERE",
+      "subTitle": "Innovation Starts Here",
       "explore": "On Going",
       "image": "https://i.ibb.co/XZBdDq4/Kettop.jpg"
     },
     {
-      "id": 4,
+      "id": 4,      
+      "logo": "../src/assets/AIT.svg",
       "title": "AIT",
-      "sub-title": "Assistant Information Technology",
+      "subTitle": "Assistant Information Technology",
       "explore": "On Going",
       "image": "https://i.ibb.co/pRTyMMd/AIT.png"
     }

@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      Balooda: ['Baloo Da 2', 'cursive'],
+      Montserrat: ['Montserrat Alternates', 'sans-serif'],
+      Roboto: ['Roboto', 'sans-serif'],
+      Poopin: ['Poppins', 'sans-serif'],
+      // Add more font families if needed
+    },
   },
   plugins: [require("daisyui")],
 }

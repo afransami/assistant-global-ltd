@@ -31,11 +31,11 @@ const Navbar = () => {
                     alt=""
                   />
                 </li>
-                <li className=" hover:text-gray-400 cursor-pointer">Shop</li>
-                <li className=" hover:text-gray-400 cursor-pointer">Product</li>
-                <li className=" hover:text-gray-400 cursor-pointer">Services</li>
-                <li className=" hover:text-gray-400 cursor-pointer">Contact</li>
-                <li className=" hover:text-gray-400 cursor-pointer">
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Shop</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Product</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Services</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Contact</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">
                   Contribution
                 </li>
                 <li className=" hover:text-gray-400 cursor-pointer">
@@ -53,7 +53,7 @@ const Navbar = () => {
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only ">Open main menu</span>
               <HiMenuAlt4
                 className={`${isOpen ? "hidden" : "block"} h-6 w-6 text-black`}
               ></HiMenuAlt4>
@@ -83,19 +83,19 @@ const Navbar = () => {
         id="mobile-menu"
       >
         <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3 flex flex-col">
-          <Link className="text-gray-900 hover:text-gray-400 cursor-pointer">
+          <Link className="font-Montserrat text-gray-900 hover:text-gray-400 cursor-pointer">
             Shop
           </Link>
-          <Link className="text-gray-900 hover:text-gray-400 cursor-pointer">
+          <Link className="font-Montserrat text-gray-900 hover:text-gray-400 cursor-pointer">
             Product
           </Link>
-          <Link className="text-gray-900 hover:text-gray-400 cursor-pointer">
+          <Link className="font-Montserrat text-gray-900 hover:text-gray-400 cursor-pointer">
             Services
           </Link>
           <Link className="text-gray-900 hover:text-gray-400 cursor-pointer">
             Contact
           </Link>
-          <Link className="text-gray-900 hover:text-gray-400 cursor-pointer">
+          <Link className="font-Montserrat text-gray-900 hover:text-gray-400 cursor-pointer">
             Contribution
           </Link>
         </div>

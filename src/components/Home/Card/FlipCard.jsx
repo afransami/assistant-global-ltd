@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Card from "./Card";
+import Card from "../Card/Card";
+
 
 const MainComponent = () => {
   const [cards, setCards] = useState([]);
@@ -10,13 +11,14 @@ const MainComponent = () => {
       .then((response) => response.json())
       .then((data) => setCards(data))
       .catch((error) => console.error("Error fetching data:", error));
+      // console.log(cards)
   }, []);
 
   return (
-    <div className="grid lg:grid-cols-2 gap-4 lg:mx-4">
+    <div className="grid lg:grid-cols-2 max-w-full h-auto bg-cover gap-4 ">
       {cards.map((card) => (
         <Card key={card.id} card={card} />
-      ))}
+        ))}        
     </div>
   );
 };
