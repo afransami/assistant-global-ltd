@@ -3,8 +3,8 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { Link } from "react-router-dom";
-// import Logo from "../../../assets/Untitled-2.png";
-import Logo from "../../../assets/Logo.svg"
+import Logoblk from "../../../assets/logoBlack.png";
+import Logo from "../../../assets/hompageLogo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,28 +14,36 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="lg:bg-[#313132] bg-[#f4f4f6] z-3 fixed top-0 left-0 right-0 z-10 opacity-80">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 lg:py-0 py-2">
-        <div className="lg:flex items-center justify-center lg:h-12 sm:h-8">
-          <div className="flex items-center ">
+    <nav className="lg:bg-[#313132] bg-[#f4f4f6] z-3 fixed top-0 left-0 right-0 z-10">
+      <div className="max-w-7xl px-4 mx-auto lg:px-8 lg:py-0 py-2">
+        <div className="lg:flex md:flex items-center justify-center lg:h-12 sm:h-8">
+          <div className="">
             <div className="hidden md:block">
               <ul
-                className="ml-10 flex items-center gap-20 space-x-8 font-[12px] text-[#F3F3F3] "
+                className="flex items-center justify-between gap-10 lg:gap-32 font-[12px] lg:text-[#F3F3F3] text-black"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                <li className=" hover:text-gray-400 cursor-pointer">
+                <li className=" hover:text-gray-900 cursor-pointer hidden md:block lg:hidden md:ml-10">
                   <img
-                    className="w-7"
-                    src="https://i.ibb.co/Tm3X6wB/Untitled-2.png"
-                    // src={Logo}
+                    className="w-10"
+                    // src="https://i.ibb.co/Tm3X6wB/Untitled-2.png"
+                    src={Logoblk}
                     alt=""
                   />
                 </li>
-                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Shop</li>
-                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Product</li>
-                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Services</li>
-                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">Contact</li>
-                <li className="font-Montserrat hover:text-gray-400 cursor-pointer">
+                <li className=" hover:text-gray-900 cursor-pointer hidden lg:block">
+                  <img
+                    className="w-10"
+                    // src="https://i.ibb.co/Tm3X6wB/Untitled-2.png"
+                    src={Logo}
+                    alt=""
+                  />
+                </li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer text-[15px]">Shop</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer text-[15px]">Product</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer text-[15px]">Services</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer text-[15px]">Contact</li>
+                <li className="font-Montserrat hover:text-gray-400 cursor-pointer text-[15px]">
                   Contribution
                 </li>
                 <li className=" hover:text-gray-400 cursor-pointer">

@@ -33,7 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 2px;
   background-color: #f1f1f1;
   transform: rotateX(180deg);
 }

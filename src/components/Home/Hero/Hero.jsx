@@ -21,12 +21,18 @@ const Hero = () => {
           }}
         >
           <div className="text-center pt-2 lg:pt-20 ">
-            <h1 className="text-xl lg:text-4xl uppercase text-[#313232] font-Montserrat">
+            <h1 className="text-xl lg:text-5xl uppercase text-[#313232] font-Montserrat font-medium">
               ASSISTANT GLOBAL
             </h1>
             <h1
-              className="block font-extralight lg:text-xl font-Montserrat text-[#313132]"
-              style={{ letterSpacing: `7px` }}
+              className=" font-light text-lg lg:text-xl font-Montserrat text-[#313132] hidden lg:block"
+              style={{ letterSpacing: `15px` }}
+            >
+              FOR THE PEOPLE
+            </h1>
+            <h1
+              className="font-light text-md font-Montserrat text-[#313132] lg:hidden block"
+              style={{ letterSpacing: `4px` }}
             >
               FOR THE PEOPLE
             </h1>

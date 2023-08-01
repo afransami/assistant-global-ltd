@@ -50,7 +50,7 @@ const SwiperCTA = () => {
               <h1 className="font-normal text-md text-[#E2E2E2] font-Montserrat">
                 aPay
                 <strong
-                  className="block font-extralight text-[12px] text-[#E2E2E2] opacity-50 font-Montserrat"
+                  className="block font-medium text-[12px] text-[#E2E2E2] opacity-50 font-Montserrat"
                   style={{ letterSpacing: `1.6px` }}
                 >
                  IT'S SECURED
@@ -77,7 +77,7 @@ const SwiperCTA = () => {
             <div className="">
               <img className="" src="https://i.ibb.co/f0Spt06/ABS.png" alt="" />
             </div>
-            <div className="flex flex-col lg: flex-none  items-center justify-center absolute top-2 left-[30%]">
+            <div className="flex flex-col lg: flex-none  items-center justify-center absolute md:top-10 top-2 md:left-[40%] left-[30%]">
             <img style={{ width: '90px', height: '100%' }} src={abs} alt="" />    
               <p className="font-Montserrat uppercase text-gray-400 text-[12px]">YOUR BUSINESS SOLUTION</p>
               <div className="flex items-center justify-center  top-20 lg:top-18 ">
@@ -99,8 +99,8 @@ const SwiperCTA = () => {
             <div>
               <img src="https://i.ibb.co/8sP6h0T/Property.png" alt="" />
             </div>
-            <div className="lg:flex-none flex items-center justify-center flex-col absolute top-2 left-[30%] ">
-              <p className="text-lg font-extralight lg:text-4xl font-Montserrat">PROPERTY</p>
+            <div className="flex flex-col lg: flex-none  items-center justify-center absolute md:top-10 top-2 md:left-[35%] left-[30%]">            
+              <p className="text-lg font-medium lg:text-4xl font-Montserrat">PROPERTY</p>
               <p className="text-gray-400 text-[12px] font-Montserrat uppercase ">MAKE SECURE YOUR FUTURE</p>
               <div className="flex items-center justify-center top-2 lg:top-18 ">
                 <Link
@@ -121,7 +121,7 @@ const SwiperCTA = () => {
             <div>
               <img src="https://i.ibb.co/W2xwczS/ATRavel.png" alt="" />
             </div>
-            <div className="lg:flex-none flex items-center justify-center flex-col absolute top-2 left-[40%] ">
+            <div className="flex flex-col lg: flex-none  items-center justify-center absolute md:top-10 top-2 md:left-[40%] left-[40%]">            
               <img style={{ width: '90px', height: '100%' }} src={travel} alt="" />
               {/* <p className="text-lg font-bold lg:text-4xl"></p> */}
               <p className="text-gray-400 text-[12px] font-Montserrat uppercase">LEARN & ENJOY</p>
@@ -144,8 +144,8 @@ const SwiperCTA = () => {
             <div className="">
               <img src="https://i.ibb.co/TtCjY9m/GREEN.png" alt="" />
             </div>
-            <div className="lg:flex-none flex items-center justify-center flex-col absolute top-2 left-[35%] ">
-              <p className="text-lg font-extralight lg:text-4xl font-Montserrat">GREEN</p>
+            <div className="flex flex-col lg: flex-none  items-center justify-center absolute md:top-10 top-2 md:left-[40%] left-[35%]">
+              <p className="text-lg font-medium lg:text-4xl font-Montserrat">GREEN</p>
               <p className="text-gray-400 text-[12px] font-Montserrat uppercase">EAT HEALTHY FOOD</p>
               <div className="flex items-center justify-center  top-2 lg:top-18 ">
                 <Link
@@ -166,7 +166,7 @@ const SwiperCTA = () => {
             <div className="">
               <img src="https://i.ibb.co/wMscM1s/ACap.png" alt="" />
             </div>
-            <div className="flex flex-col lg: flex-none  items-center justify-center absolute top-2 left-[20%]">
+            <div className="flex flex-col lg: flex-none  items-center justify-center absolute md:top-10 top-2 md:left-[40%] left-[20%]">             
             <img style={{ width: '90px', height: '100%' }}  src={acap} alt="" />
               {/* <p className="text-lg font-bold lg:text-4xl">GREEN</p> */}
               <p className="text-gray-400 text-[12px] font-Montserrat uppercase">ADVANCE YOUR BUSINESS CAPACITY</p>
@@ -189,8 +189,9 @@ const SwiperCTA = () => {
             <div className="">
               <img src="https://i.ibb.co/wKdNcw8/EDucation.png" alt="" />
             </div>
-            <div className="lg:flex-none flex items-center justify-center flex-col absolute top-2 left-[35%] ">        
-              <p className="text-lg font-extralight lg:text-4xl font-Montserrat uppercase">EDUACATION</p>
+            
+            <div className="flex flex-col lg: flex-none  items-center justify-center absolute md:top-10 top-2 md:left-[40%] left-[35%]">            
+              <p className="text-lg font-medium lg:text-4xl font-Montserrat uppercase">EDUACATION</p>
               <p className="text-gray-400 text-[12px] font-Montserrat">GAIN KNOWLEDGE</p>
               <div className="flex items-center justify-center top-20 lg:top-18 ">
                 <Link

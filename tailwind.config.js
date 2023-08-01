@@ -8,7 +8,7 @@ export default {
     extend: {},
     fontFamily: {
       Balooda: ['Baloo Da 2', 'cursive'],
-      Montserrat: ['Montserrat Alternates', 'sans-serif'],
+      Montserrat: ['Montserrat', 'sans-serif'],
       Roboto: ['Roboto', 'sans-serif'],
       Poopin: ['Poppins', 'sans-serif'],
       // Add more font families if needed

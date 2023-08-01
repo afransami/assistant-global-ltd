@@ -17,7 +17,8 @@ const SliderCard = () => {
   }, []);
 
   return (
-    <div className="grid lg:grid-cols-2 w-full h-auto bg-cover gap-4 lg:mx-4">
+    // <div className="grid lg:grid-cols-2 md:grid-cols-1 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
+    <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:gap-4">
       {data.map((card) => (
         <SwiperCTA
          key={card.id} card={card} />

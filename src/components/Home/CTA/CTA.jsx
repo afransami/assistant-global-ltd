@@ -88,7 +88,7 @@ const CTA = () => {
               <img src="https://i.ibb.co/8sP6h0T/Property.png" alt="" />
             </div>
             <div className="flex items-center justify-center flex-col absolute top-20 left-[40%] ">
-              <p className="text-lg font-extralight font-Montserrat lg:text-4xl">PROPERTY</p>
+              <p className="text-lg font-medium font-Montserrat lg:text-4xl">PROPERTY</p>
               <p className="font-Montserrat uppercase text-gray-400 text-[13px]">MAKE SECURE YOUR FUTURE</p>
               <div className="flex items-center justify-center  top-20 lg:top-18 ">
                 <Link
@@ -131,7 +131,7 @@ const CTA = () => {
               <img src="https://i.ibb.co/TtCjY9m/GREEN.png" alt="" />
             </div>
             <div className="flex items-center justify-center flex-col absolute top-20 left-[40%] ">
-              <p className="text-lg font-bold lg:text-4xl font-Montserrat">GREEN</p>
+              <p className="text-lg font-medium lg:text-4xl font-Montserrat">GREEN</p>
               <p className="font-Montserrat uppercase text-gray-400 text-[13px]">EAT HEALTHY FOOD</p>
               <div className="flex items-center justify-center  top-20 lg:top-18 ">
                 <Link
@@ -174,7 +174,7 @@ const CTA = () => {
               <img src="https://i.ibb.co/wKdNcw8/EDucation.png" alt="" />
             </div>
             <div className="flex items-center justify-center flex-col absolute top-20 left-[40%] ">            
-              <p className="text-lg font-extralight lg:text-4xl font-Montserrat uppercase">EDUACATION</p>
+              <p className="text-lg font-medium lg:text-4xl font-Montserrat uppercase">EDUACATION</p>
               <p className="font-Montserrat uppercase text-gray-400 text-[13px]">GAIN KNOWLEDGE</p>
               <div className="flex items-center justify-center top-20 lg:top-18 ">
                 <Link
